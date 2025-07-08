@@ -4,9 +4,6 @@ import Product from "./Product";
 import Footer from "./Footer";
 import ProductDetails from "./ProductDetails";
 
-// Default curly braces ke bahar hota h
-// Default export ka naam nhi hota import karne wala koi bhi naam de sktea h
-
 export default function App() {
 
   const [query,setQuery] = useState("");
@@ -94,25 +91,4 @@ export default function App() {
     </div>
   );
 }
-
-
-
-
-
-
-
-// const student = {
-//   name: 'Suresh',
-//   email: 'suresh@gmail.com',
-//   age: 99,
-//   profile: {
-//     aboutMe: 'I love Coding',
-//     skills: ['React', 'JavaScript']
-//   }
-// };
-
-// ... lagane se saare bachi hui keys ussme chali jati h
-
-// const {name, email, age, ...xyz} = student;
- // object destructing
 
