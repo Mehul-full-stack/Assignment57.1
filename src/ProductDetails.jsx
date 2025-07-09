@@ -3,7 +3,7 @@ import React from "react";
 function ProductDetails() {
     return (
         <div className="flex justify-center items-center bg-gray-100 m-6">
-            <div className="bg-white p-8 flex gap-10 mb-8">
+            <div className="p-8 flex gap-10 mb-8">
                 <div>
                     <img className="w-80 h-80 object-contain" src="https://femora.in/cdn/shop/files/FMBNNSHBLKMRL_1.jpg?v=1719041481"/>
                 </div>
