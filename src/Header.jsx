@@ -1,5 +1,4 @@
 import React from "react";
-import { HiShoppingCart } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -10,7 +9,7 @@ function Header() {
       </div>
       <div className="px-16 flex justify-between items-center">
         <Link to="/cart">
-          <HiShoppingCart className="text-3xl" />
+          <span className="text-2xl">Cart</span>
         </Link>
       </div>
     </div>
