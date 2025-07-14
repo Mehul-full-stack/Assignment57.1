@@ -1,14 +1,3 @@
-
-// convention to use props(properties)
-
-// Named Export : export function function_name()
-// Default Export : export default Product
-
-// declerative vs imperative 
-
-// React works on declearative approch we write declearative code and react converts it into imperative
-
-
 import React from "react";
 import {Link} from "react-router-dom";
 
