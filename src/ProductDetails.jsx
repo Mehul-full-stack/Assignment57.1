@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import productData from "./DummyData";
-import { HiArrowNarrowLeft } from "react-icons/hi";
 
 function ProductDetails() {
     // const params = useParams();
@@ -19,9 +18,6 @@ function ProductDetails() {
     }
     return (
         <div className="ml-8">
-            <Link to="/">
-                <HiArrowNarrowLeft className="text-3xl"/>
-            </Link>
             <div className="flex justify-center items-center bg-gray-100 m-6">
             <div className="p-8 flex gap-10 mb-8">
                 <div>
