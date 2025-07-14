@@ -1,26 +1,27 @@
 import React from "react";
-import ProductListPage from "./ProductListPage";
+import { Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import ProductDetails from "./ProductDetails"
-import { Route, Routes } from "react-router-dom";
+import ProductListPage from "./ProductListPage";
+import ProductDetails from "./ProductDetails";
+import CartPage from "./CartPage";
 
 // Default curly braces ke bahar hota h
 // Default export ka naam nhi hota import karne wala koi bhi naam de sktea h
 
 export default function App() {
-    return (
-      <div className="flex flex-col justify-between min-h-screen">
-        <Header />
-        <Routes>
-          <Route path="/" element={<ProductListPage />}></Route>
-          <Route path="/product-details" element={<ProductDetails />}></Route>
-        </Routes>
-        <Footer />
-      </div>
-    );
+  return (
+    <div className="flex flex-col justify-between min-h-screen">
+      <Header />
+      <Routes>
+        <Route path="/" element={<ProductListPage />} />
+        <Route path="/product/:sku" element={<ProductDetails />} />
+        <Route path="/cart" element={<CartPage />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
 }
-
 
 
 
